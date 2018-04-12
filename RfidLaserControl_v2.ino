@@ -37,6 +37,8 @@
 #include <Adafruit_PCD8544.h>
 
 #define CURRENT_ON 8     // Enable/disable power for laser machine
+#define LASER_ENABLE 
+#define LASER_DISABLE
 #define BACKLIGHT 3     // Control backlight of LCD screen
 #define currentPin A0  //corriente del laser ma=adc*10000/(315*1024)
 #define tempPin A1    //temperatura agua  tºC=(adc-242)*35/(635-242)  635=35ºC  242=0ºC 
